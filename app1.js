@@ -30,20 +30,24 @@ const store = {
   score: 0
 };
 
-/**
- * 
- * Technical requirements:
- * 
- * Your app should include a render() function, that regenerates the view each time the store is updated. 
- * See your course material and access support for more details.
- *
- * NO additional HTML elements should be added to the index.html file.
- *
- * You may add attributes (classes, ids, etc) to the existing HTML elements, or link stylesheets or additional scripts if necessary
- *
- * SEE BELOW FOR THE CATEGORIES OF THE TYPES OF FUNCTIONS YOU WILL BE CREATING 👇
- * 
- */
+/*
+Technical Requirements:
+
+- Must include a render() function that conditionally regenerates the view each time the store is updated
+- Include single-purpose template generation functions
+- Include single-purpose event handler functions
+- Call all functions from a jQuery initializing function
+- NOT add additional HTML elements to the boilerplate code’s index.html file (you may add attributes, i.e., classes and ids, to the existing HTML elements, or link stylesheets or additional scripts if necessary)
+- Render answer choices in a <form>
+- Use semantic HTML, along with CSS and jQuery
+- Follow a11y best practices
+- Be fully usable by keyboard (which will be easy enough if you start with a form)
+- Use responsive design
+*/
+
+
+// - Design your app using HTML wireframes, which are HTML - and minimal CSS - only versions of the different screens in your app
+
 
 /********** TEMPLATE GENERATION FUNCTIONS **********/
 
